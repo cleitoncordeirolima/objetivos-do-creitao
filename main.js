@@ -15,7 +15,7 @@ for (let i = 0; i < botoes.length; i++) {
 }
 
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2024-10-08T00:00:00");
+const tempoObjetivo1 = new Date("2024-10-15T00:00:00");
 const tempoObjetivo2 = new Date("2024-12-31T00:00:00");
 const tempoObjetivo3 = new Date("2024-12-31T00:00:00");
 const tempoObjetivo4 = new Date("2024-12-10T00:00:00");
@@ -52,4 +52,4 @@ function comecaCronometro(){
     setInterval(atualizaCronometro,1000);
 }
 
-comecaCronometro();
+//comecaCronometro();
